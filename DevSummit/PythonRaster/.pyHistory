@@ -1,0 +1,9 @@
+﻿out_raster = arcpy.ia.Clip("landuse", "StudyArea"); out_raster.save(r"C:\tmp\testhhh")
+out_raster = arcpy.sa.ExtractByMask("landuse", "StudyArea"); out_raster.save(r"C:\tmp\testhhhh")
+e = arcpy.Raster('Elevation')
+e*2
+md_raster.variableNames
+import arcpy
+import numpy
+import numpy as np
+np.arctan(2)
